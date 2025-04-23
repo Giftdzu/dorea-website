@@ -1,0 +1,346 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background-color: #0a2e22;
+    color: #f5d772;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 30px 10px;
+    background-color: #0f392a;
+  }
+  .about {
+  background-color: #0a2e22;
+  color: #f5d772;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 2em;
+  margin-bottom: 15px;
+  color: #f5d772;
+}
+
+.about p {
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+  font-size: 1.1em;
+}
+
+  .logo {
+    width: 160px;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    margin: 0;
+    color: #f5d772;
+  }
+  
+  .about {
+    background-color: #1d4637;
+    padding: 40px 20px;
+    text-align: center;
+    color: #f5d772;
+  }
+  
+  .about p {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .pricing {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: #1d4637;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    border: 2px solid #f5d772;
+  }
+  
+  .card h3 {
+    color: #f5d772;
+  }
+  
+  .card ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    color: white;
+  }
+  
+  .price {
+    font-size: 24px;
+    color: #f5d772;
+    margin-top: 10px;
+  }
+  
+  .featured {
+    background-color: #293d31;
+    border: 3px solid gold;
+  }
+  
+  footer {
+    background-color: #0a2e22;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+  }
+  .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  }
+  .cta {
+    margin-top: 20px;
+    background-color: #f5d772;
+    color: #0a2e22;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta:hover {
+    background-color: #ffeaa7;
+  }
+  .contact {
+    background-color: #1d4637;
+    padding: 40px 20px;
+    text-align: center;
+    color: #f5d772;
+  }
+  
+  .contact form {
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .contact input,
+  .contact textarea {
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+  }
+  
+  .contact button {
+    background-color: #f5d772;
+    color: #0a2e22;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact button:hover {
+    background-color: #ffeaa7;
+  }
+  .whatsapp-button {
+    margin-top: 20px;
+  }
+  
+  .whatsapp-button a {
+    display: inline-block;
+    background-color: #25d366;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .whatsapp-button a:hover {
+    background-color: #1ebe5d;
+  }
+  .whatsapp-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 25px;
+    right: 25px;
+    background-color: #25d366;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.3s ease;
+  }
+  
+  .whatsapp-float:hover {
+    background-color: #1ebe5d;
+  }
+  
+  .whatsapp-float img {
+    width: 30px;
+    height: 30px;
+  }
+  .testimonials {
+    background-color: #1d4637;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .testimonial-slider {
+    position: relative;
+    max-width: 600px;
+    margin: 20px auto;
+    height: 130px;
+  }
+  
+  .testimonial {
+    display: none;
+    font-style: italic;
+    font-size: 1.1em;
+  }
+  
+  .testimonial.active {
+    display: block;
+  }
+  
+  .testimonial span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #f5d772;
+  }
+  .services {
+    background-color: #0f392a;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .services h2 {
+    font-size: 2em;
+    color: #f5d772;
+    margin-bottom: 20px;
+  }
+  
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .service-item {
+    background-color: #1d4637;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: 1px solid #f5d772;
+    transition: transform 0.2s ease;
+  }
+  
+  .service-item:hover {
+    transform: scale(1.05);
+  }
+  .gallery-section {
+    background-color: #0f392a;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .gallery-section h2 {
+    color: #f5d772;
+    margin-bottom: 20px;
+  }
+  
+  .gallery-scroll {
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+    padding: 10px 0;
+    scroll-behavior: smooth;
+  }
+  
+  .gallery-scroll::-webkit-scrollbar {
+    height: 8px;
+  }
+  
+  .gallery-scroll::-webkit-scrollbar-thumb {
+    background: #f5d772;
+    border-radius: 4px;
+  }
+  
+  .gallery-scroll img {
+    height: 150px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+  }
+  
+  .gallery-scroll img:hover {
+    transform: scale(1.05);
+  }
+  .gallery-section {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .gallery-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .gallery-scroll {
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding: 10px;
+  }
+  
+  .gallery-scroll img {
+    flex: 0 0 auto;
+    height: 200px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .gallery-scroll img:hover {
+    transform: scale(1.05);
+  }
+  
+  @media (max-width: 768px) {
+    .gallery-scroll img {
+      height: 140px;
+    }
+  }
+  
