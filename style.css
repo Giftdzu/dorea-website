@@ -610,4 +610,22 @@ body {
   .nav-menu a:hover::after {
     width: 100%;
   }
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #fff;
+    padding: 10px;
+  }
+  
+  .nav-links.active {
+    display: flex;
+  }
+  
+  .burger-menu {
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
   
