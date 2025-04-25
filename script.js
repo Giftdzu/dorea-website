@@ -32,3 +32,15 @@ function showTestimonials() {
 }
 
 setInterval(showTestimonials, 5000); // Change every 5 seconds
+<script>
+  const testimonials = document.querySelectorAll('.testimonial');
+  let current = 0;
+
+  function showNextTestimonial() {
+    testimonials[current].classList.remove('active');
+    current = (current + 1) % testimonials.length;
+    testimonials[current].classList.add('active');
+  }
+
+  setInterval(showNextTestimonial, 4000); // Switch every 4 seconds
+</script>
