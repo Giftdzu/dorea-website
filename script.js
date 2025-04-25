@@ -34,13 +34,13 @@ function showTestimonials() {
 setInterval(showTestimonials, 5000); // Change every 5 seconds
 // Burger menu toggle
 document.addEventListener("DOMContentLoaded", function () {
-  const burger = document.querySelector(".burger");
-const nav = document.querySelector(".nav-menu");
-
-burger.addEventListener("click", () => {
-  nav.classList.toggle("active");
-});
-  }
+  const burger = document.querySelector(".burger-menu");
+  const nav = document.querySelector(".nav-links");
+  
+  burger.addEventListener("click", () => {
+    nav.classList.toggle("active");
+  });
+  
 });
 document.addEventListener("DOMContentLoaded", function () {
   const burger = document.querySelector(".burger-menu");
