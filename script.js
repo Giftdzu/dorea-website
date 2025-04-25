@@ -32,15 +32,24 @@ function showTestimonials() {
 }
 
 setInterval(showTestimonials, 5000); // Change every 5 seconds
-<script>
-  const testimonials = document.querySelectorAll('.testimonial');
-  let current = 0;
+// Burger menu toggle
+document.addEventListener("DOMContentLoaded", function () {
+  const burger = document.querySelector(".burger-menu");
+  const nav = document.querySelector(".nav-links");
 
-  function showNextTestimonial() {
-    testimonials[current].classList.remove('active');
-    current = (current + 1) % testimonials.length;
-    testimonials[current].classList.add('active');
+  if (burger && nav) {
+    burger.addEventListener("click", function () {
+      nav.classList.toggle("active");
+    });
   }
+});
+document.addEventListener("DOMContentLoaded", function () {
+  const burger = document.querySelector(".burger-menu");
+  const nav = document.querySelector(".nav-links");
 
-  setInterval(showNextTestimonial, 4000); // Switch every 4 seconds
-</script>
+  if (burger && nav) {
+    burger.addEventListener("click", function () {
+      nav.classList.toggle("active");
+    });
+  }
+});
