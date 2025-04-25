@@ -632,12 +632,6 @@ body {
     display: none;
   }
 }
-@media (max-width: 768px) {
-  .nav-menu {
-    display: flex !important;
-    flex-direction: column;
-    gap: 10px;
-  }
-}
+
 
   
