@@ -627,5 +627,10 @@ body {
     cursor: pointer;
     padding: 10px;
   }
-  
+  @media (max-width: 768px) {
+  .burger {
+    display: none;
+  }
+}
+
   
